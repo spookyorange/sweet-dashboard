@@ -7,7 +7,7 @@ import LinkItem from "./header_components/LinkItem.vue";
     <LinkItem text="Dashboard" />
     <LinkItem text="Add Stuff" />
     <LinkItem text="More Options" />
-    <LinkItem text="Track People" />
+    <LinkItem text="Track Employee" />
     <LinkItem text="Support" />
   </ul>
 </template>
