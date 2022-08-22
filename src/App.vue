@@ -1,3 +1,13 @@
+<script setup>
+import Header from "./components/Header.vue";
+import MainContent from "./components/MainContent.vue";
+import Footer from "./components/Footer.vue";
+</script>
+
 <template>
-  <div class="flex justify-center text-4xl pt-16">God is in coma, put faith in a life support!</div>
+  <div>
+    <Header />
+    <MainContent />
+  </div>
+  <Footer />
 </template>
