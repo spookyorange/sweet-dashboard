@@ -4,7 +4,7 @@
 
 @layer components {
   .header {
-    @apply hidden md:w-screen md:flex justify-around bg-purple-500;
+    @apply hidden md:w-screen md:flex justify-around;
   }
 
   .header > li {
