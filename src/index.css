@@ -3,10 +3,19 @@
 @tailwind utilities;
 
 @layer components {
-    .header {
-        @apply hidden text-black md:w-screen md:flex justify-around bg-purple-500
-    }
-    .header>li {
-        @apply hover:bg-purple-900 hover:text-white hover:duration-200 p-4 hover:cursor-pointer
-    }
+  .header {
+    @apply hidden md:w-screen md:flex justify-around bg-purple-500;
+  }
+
+  .header > li {
+    @apply hover:bg-purple-900 hover:text-white hover:duration-200 p-4 hover:cursor-pointer;
+  }
+
+  .footer {
+    @apply w-screen flex flex-col items-center md:flex-row justify-around bg-purple-500;
+  }
+
+  .footer > li {
+    @apply hover:underline p-2 hover:cursor-pointer;
+  }
 }
