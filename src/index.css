@@ -8,11 +8,11 @@
   }
 
   .header > li {
-    @apply hover:bg-purple-900 hover:text-white hover:duration-200 p-4 hover:cursor-pointer;
+    @apply hover:bg-purple-900 hover:text-white hover:duration-200 p-4 hover:cursor-pointer text-lg;
   }
 
   .footer {
-    @apply w-screen flex flex-col items-center md:flex-row justify-around bg-purple-500;
+    @apply w-screen flex flex-col text-lg items-center md:flex-row justify-around bg-purple-500;
   }
 
   .footer > li {
